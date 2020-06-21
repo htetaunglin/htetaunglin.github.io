@@ -71,6 +71,18 @@ a:hover {
 	color: white;
 	display: none;
 }
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #4E4E4E;
+	color: white;
+	text-align: center;
+}
+.copyright{
+	font-weight: 100;
+}
 @media screen and (max-width: 39em) {
 	.headdiv{
 		height: 100%;
@@ -101,6 +113,10 @@ a:hover {
 		margin: 0px;
 		text-align: center;
 		left: 0px;
+	}
+	.footer{
+		padding: 4px;
+		position: relative;
 	}
 	.arrow {
 		text-align: center;
