@@ -3,6 +3,7 @@
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 	color: #4E4E4E;
+	width: 100%;
 	height:100%;
 	scroll-behavior: smooth;
 }
@@ -28,6 +29,7 @@
 }
 .headdiv{
 	height: 280px;
+	width: 100%;
 	background-color: #3C3A3B;
 }
 .content-life{
@@ -67,10 +69,6 @@ a:hover {
 	font-size: 20px;
 	font-weight: 100;
 }
-.arrow{
-	color: white;
-	display: none;
-}
 .footer {
 	position: fixed;
 	left: 0;
@@ -101,9 +99,6 @@ a:hover {
 	.content-life{
 		width: 90%;
 	}
-	.arrow{
-		display: block;
-	}
 	.name-contact{
 		width: 100%;
 		float: none;
@@ -115,28 +110,8 @@ a:hover {
 		left: 0px;
 	}
 	.footer{
-		padding: 4px;
+		padding-top: 4px;
+		padding-bottom: 4px;
 		position: relative;
-	}
-	.arrow {
-		text-align: center;
-		width: 100%;
-		margin: 20% 0;
-	}
-	.bounce {
-		-moz-animation: bounce 2s infinite;
-		-webkit-animation: bounce 2s infinite;
-		animation: bounce 2s infinite;
-	}
-	@keyframes bounce {
-  		0%, 20%, 50%, 80%, 100% {
-    		transform: translateY(0);
-  		}
-  		40% {
-    		transform: translateY(-30px);
-		}
-		60% {
-    		transform: translateY(-15px);
-		}
 	}
 }
