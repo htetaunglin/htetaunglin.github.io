@@ -109,6 +109,9 @@ a:hover {
 }
 hr{
 	width: 100px;
+	border: none;
+	height: 1px;
+	background-color: #AA4E4E4E;
 }
 
 @media screen and (max-width: 39em) {
