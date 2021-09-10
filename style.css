@@ -35,7 +35,7 @@
 .content-life{
 	text-align: left;
 	font-size: 16px;
-	width: 30em;
+	width: 60em;
 	margin-bottom: 60px;
 }
 .logo{
@@ -147,5 +147,12 @@ hr{
 		padding-top: 4px;
 		padding-bottom: 4px;
 		position: relative;
+	}
+}
+
+@media screen and (max-width: 69em) {
+	.content-life{
+		width: 90%;
+		margin-bottom: 0px;
 	}
 }
